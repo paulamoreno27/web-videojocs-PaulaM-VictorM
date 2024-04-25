@@ -1,0 +1,10 @@
+
+.cabecera {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 115%;
+    cabecera p {
+        margin-top: 5%;
+    }
+}
