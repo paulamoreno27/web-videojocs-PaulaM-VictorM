@@ -16,6 +16,12 @@
     text-align: center;
 }
 
+.wii {
+    background-color: rgb(65, 182, 239);
+    color: white;
+    text-align: center;
+}
+
 .mario {
     background-color: rgb(196, 96, 251);
     color: black;
