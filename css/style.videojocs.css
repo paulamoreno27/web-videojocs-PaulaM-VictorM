@@ -1,0 +1,17 @@
+.minecraft {
+    background-color: rgb(104, 183, 74);
+    color: white;
+    text-align: center;
+}
+
+.gta {
+    background-color: rgb(199, 180, 121);
+    color: black;
+    text-align: center;
+}
+
+.tetris {
+    background-color: rgb(41, 43, 122);
+    color: rgb(250, 62, 89);
+    text-align: center;
+}
