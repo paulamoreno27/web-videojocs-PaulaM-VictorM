@@ -30,24 +30,84 @@ body.mariofondo {
     background-color: rgb(104, 183, 74);
     color: white;
     text-align: center;
+    font-size: 150%;
     font-family: "Pixelify Sans", sans-serif;
+}
+
+#titulo1 {
+    font-size: 220%;
+}
+
+.fila1 {
+    display: flex;
+    width: 100%; 
+}
+
+.col-izq {
+    width: 100%;
+}
+
+#fotoprincipal {
+    width: 120%;
+    padding-left: 35%;
+    margin-top: 15%;
+}
+
+.col-der {
+    text-align: center;
+    width: 78%;
+    padding-left: 20%;
+    padding-right: 5%;
+    margin-top: -0%; 
 }
 
 #minecraftini {
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 60px;
+    font-size: 45px;
 }
+
+#textomine {
+    text-align: justify; 
+    padding-left: 6%; 
+    padding-right: 6%; 
+} 
+
+.video {
+    width: 540px;
+    height: 300px;
+}
+
 
 .gta {
     background-color: rgb(199, 180, 121);
     color: black;
     text-align: center;
+    font-size: 150%;
     font-family: "Anton", sans-serif;
 }
 
 #gtaini {
     font-family: "Anton", sans-serif;
-    font-size: 60px;
+    font-size: 45px;
+    margin-top: 5%;
+}
+
+#fotoprincipal2 {
+    width: 250%;
+    padding-left: 35%;
+    margin-top: 15%;
+}
+
+#textogta {
+    text-align: justify; 
+    padding-left: 29%; 
+    padding-right: 2%; 
+} 
+
+.video2 {
+    width: 650px;
+    height: 300px;
+    padding-left: 20%; 
 }
 
 .tetris {
@@ -60,18 +120,56 @@ body.mariofondo {
 #tetrisini {
     font-family: "Jersey 10", sans-serif;
     font-size: 60px;
+    margin-top: 5%;
+}
+
+#fotoprincipal3 {
+    width: 120%;
+    padding-left: 20%;
+    margin-top: 15%;
+}
+
+.video3 {
+    width: 650px;
+    height: 300px;
+    padding-left: 2%;
+}
+
+#textotetris {
+    text-align: justify; 
+    padding-left: 6%; 
+    padding-right: 6%; 
 }
 
 .wii {
     background-color: rgb(65, 182, 239);
-    color: white;
     text-align: center;
+    font-size: 150%;
     font-family: "Kanit", sans-serif;
 }
 
 #wiiini {
     font-family: "Kanit", sans-serif;
     font-size: 60px;
+    margin-top: -3%;
+}
+
+#textowii {
+    text-align: justify; 
+    padding-left: 20%; 
+    padding-right: 3%; 
+}
+
+#fotoprincipal4 {
+    width: 215%;
+    padding-left: 35%;
+    margin-top: 15%;
+}
+
+.video4 {
+    width: 600px;
+    height: 270px;
+    padding-left: 7%;
 }
 
 .mario {
@@ -79,34 +177,82 @@ body.mariofondo {
     color: black;
     text-align: center;
     font-family: "Rubik Mono One", monospace; 
+    font-size: 115%;
+}
+
+#titulo5 {
+    font-size: 125%;
 }
 
 #marioini {
     font-family: "Rubik Mono One", monospace; 
-    font-size: 60px;
+    font-size: 60px;    
+    padding-left: 10%; 
+}
+
+#textomario {
+    text-align: justify; 
+    padding-left: 20%; 
+    padding-right: 3%; 
+}
+
+#fotoprincipal5 {
+    width: 215%;
+    padding-left: 45%;
+    margin-top: 15%;
+}
+
+.video5 {
+    width: 600px;
+    height: 290px;
+    padding-left: 7%;
 }
 
 #container {
     display: flex;
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+#personajesmario {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Rubik Mono One", monospace; 
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
+
 td {
-    border: 1px solid black;
-    padding: 10px;
+    border: 3px solid rgb(196, 96, 251);
     text-align: center;
+    color: rgb(196, 96, 251);
+    font-size: 15px;
+    font-family: "Rubik Mono One", monospace; 
 }
 
 .valoracion {
     width: 50%;
 }
 .pegi {
-    width: 10%;
+    width: 25%;
 }
 
 .game {
-    width: 15%;
+    width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    #fotomine {
+        width: 35%;
+    }
+    
+    .video {
+        width: 15%;
+    }
+
+    
 }
