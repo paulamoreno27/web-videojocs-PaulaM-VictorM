@@ -364,4 +364,35 @@ td {
         padding-right: 6%; 
     }
 
+    .wii {
+        background-color: rgb(65, 182, 239);
+        text-align: center;
+        font-size: 90%;
+        font-family: "Kanit", sans-serif;
+    }
+    
+    #wiiini {
+        font-family: "Kanit", sans-serif;
+        font-size: 60px;
+    }
+    
+    #textowii {
+        text-align: justify; 
+        padding-left: 6%; 
+        padding-right: 6%;  
+    }
+    
+    #fotoprincipal4 {
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .video4 {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
 }
