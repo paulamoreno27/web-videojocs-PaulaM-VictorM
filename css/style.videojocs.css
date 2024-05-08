@@ -395,4 +395,57 @@ td {
         padding-right: 5%;
     }
 
+    .mario {
+        background-color: rgb(196, 96, 251);
+        color: black;
+        text-align: center;
+        font-size: 80%;
+        font-family: "Rubik Mono One", monospace; 
+    }
+    
+    #titulo5 {
+        font-size: 130%;
+    }
+    
+    #marioini {
+        font-family: "Rubik Mono One", monospace; 
+        font-size: 220%;
+        padding-right: 12%;
+        padding-left: -10%;
+    }
+    
+    #textomario {
+        text-align: justify; 
+        padding-left: 6%; 
+        padding-right: 6%; 
+    }
+    
+    #fotoprincipal5 {
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .video5 {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #personajesmario {
+        font-size: 30px;
+        text-align: center;
+        font-family: "Rubik Mono One", monospace; 
+    }
+    
+    table {
+        width: 100%;
+    }
+    table td {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
 }
