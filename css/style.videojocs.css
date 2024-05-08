@@ -246,13 +246,58 @@ td {
 }
 
 @media screen and (max-width: 500px) {
-    #fotomine {
-        width: 35%;
+    .minecraft {
+        background-color: rgb(104, 183, 74);
+        color: white;
+        text-align: center;
+        font-size: 90%;
+        font-family: "Pixelify Sans", sans-serif;
     }
     
-    .video {
-        width: 15%;
+    #titulo1 {
+        font-size: 220%;
     }
-
+    
+    .fila1 {
+        display: block;
+        /* width: 100%;  */
+    }
+    
+    .col-izq {
+        width: 100%;
+    }
+    
+    #fotoprincipal {
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .col-der {
+        text-align: center;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 5%;
+        margin-top: 1%; 
+    }
+    
+    #minecraftini {
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 45px;
+    }
+    
+    #textomine {
+        text-align: justify; 
+        padding-left: 6%; 
+        padding-right: 6%; 
+    } 
+    
+    .video {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
     
 }
