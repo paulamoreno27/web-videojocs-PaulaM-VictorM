@@ -332,4 +332,36 @@ td {
         padding-right: 5%;
     }
     
+    .tetris {
+        background-color: rgb(41, 43, 122);
+        color: rgb(250, 62, 89);
+        text-align: center;
+        font-size: 120%;
+        font-family: "Jersey 10", sans-serif;
+    }
+    
+    #tetrisini {
+        font-family: "Jersey 10", sans-serif;
+        font-size: 85px;
+    }
+    
+    #fotoprincipal3 {
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .video3 {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #textotetris {
+        text-align: justify; 
+        padding-left: 6%; 
+        padding-right: 6%; 
+    }
+
 }
