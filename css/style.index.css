@@ -21,18 +21,18 @@
 }
 .imageninicial {
     display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    text-align: center;
+    width: 100%;
 }
 
 #imgtetris {
-    width: 25%;
+    width: 45%;
 }
 
-.imginicio {
-    width: 100%;
-    text-align: center;
+.imginicial {
+    width: 80%;
+    padding-left: 35%;
+    padding-right: 15%;
 }
 
 p {
@@ -50,10 +50,9 @@ p {
     }
         
     .imginicial {
-        display: block;
-        padding-left: 20%;
-        padding-right: 5%;
-        width: 85%;
+        width: 110%;
+        padding-left: 5%;
+        padding-right: 15%;
     }
 
     .imageninicial {
