@@ -299,5 +299,37 @@ td {
         padding-right: 5%;
         
     }
+
+    .gta {
+        background-color: rgb(199, 180, 121);
+        color: black;
+        text-align: center;
+        font-size: 90%;
+        font-family: "Anton", sans-serif;
+    }
+    
+    #gtaini {
+        font-family: "Anton", sans-serif;
+        font-size: 45px;
+    }
+    
+    #fotoprincipal2 {
+        width: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 5%;
+    }
+    
+    #textogta {
+        text-align: justify; 
+        padding-left: 6%; 
+        padding-right: 6%; 
+    } 
+    
+    .video2 {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
     
 }
