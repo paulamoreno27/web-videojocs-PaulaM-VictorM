@@ -245,6 +245,37 @@ td {
     width: 50%;
 }
 
+.tabla1 {
+    width: 35%;
+}
+.tabla2 {
+    width: 50%;
+}
+
+#miiwii{
+    width: 25%;
+}
+
+.tablaminecraft {
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.tablagta {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Anton", sans-serif;
+}
+.tablawii {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Kanit", sans-serif;
+}
+
 @media screen and (max-width: 500px) {
     .minecraft {
         background-color: rgb(104, 183, 74);

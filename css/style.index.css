@@ -38,32 +38,75 @@
 p {
     font-family: "Raleway", sans-serif;
     color: rgb(255, 143, 73);
+    text-align: center;
+}
+
+nav {
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 187, 0); /* Contorno de color rojo */
+    border-radius: 10px; /* Redondea las esquinas del contorno */
+    padding: 20px; /* Agrega espacio entre el contorno y el texto */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline; /* Cambia el estilo de visualización para que esté en línea */
+}
+
+li a {
+    display: inline-block; /* Hace que los elementos de enlace sean bloques en línea */
+    color: rgb(255, 143, 73);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 95%;
+}
+
+li a:hover {
+    background-color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 500px) {
-    .textoprincipal{
+    .textoprincipal {
         padding-left: 5%;
         padding-right: 5%;
         text-align: justify;
-        display: flex;
-         margin-top: 5%;
+        margin-top: 5%;
     }
         
     .imginicial {
-        width: 110%;
+        width: 100%; /* Cambiado a 100% para ajustarse al ancho de la pantalla */
         padding-left: 5%;
-        padding-right: 15%;
+        padding-right: 5%; /* Ajustado el padding */
     }
 
     .imageninicial {
         display: flex;
-        width: 85%;
+        width: 100%; /* Cambiado a 100% para ajustarse al ancho de la pantalla */
         justify-content: space-between;
         padding-left: 1%;
-        
     }
     
     #imgtetris {
-        width: 35%;
+        width: 35%; /* Tamaño de la imagen ajustado */
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    nav {
+        padding: 10px;
+    }
+    
+    li a {
+        padding: 10px;
     }
 }
+
